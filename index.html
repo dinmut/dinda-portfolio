@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dinda Mutiara Sukmaningrum | Aspiring Data Scientist</title>
+<meta name="description" content="Portfolio of Dinda Mutiara Sukmaningrum, an aspiring data scientist. Turning data into meaningful insights.">
+<meta property="og:title" content="Dinda Mutiara Sukmaningrum | Aspiring Data Scientist">
+<meta property="og:description" content="Turning data into meaningful insights.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#183027">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23183027'/%3E%3Ctext x='32' y='43' font-size='30' text-anchor='middle' fill='%23D7F26B' font-family='Georgia'%3ED%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--forest:#183027;--forest2:#22443a;--paper:#F6F5EF;--sage:#BFCFBE;--sage2:#e4ebe1;--lime:#D7F26B;--ink:#14231d;--muted:#506158;--r:24px;
+--serif:"Fraunces",Georgia,"Times New Roman",serif;--sans:"DM Sans",system-ui,-apple-system,"Segoe UI",sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.65 var(--sans)}
+a{color:inherit}.wrap{width:min(1120px,92%);margin-inline:auto}
+:focus-visible{outline:3px solid var(--lime);outline-offset:3px;border-radius:6px}
+main :focus-visible{outline-color:var(--forest)}
+.skip{position:absolute;left:-999px;top:8px;background:var(--lime);color:var(--forest);padding:8px 14px;border-radius:8px;z-index:99}.skip:focus{left:8px}
+h1,h2,h3{font-family:var(--serif);font-weight:600;line-height:1.1;margin:0;letter-spacing:-.02em}
+header.nav{position:sticky;top:0;z-index:10;background:var(--forest);color:var(--paper)}
+.nav .wrap{display:flex;justify-content:space-between;align-items:center;min-height:64px;gap:16px}
+.mark{font-family:var(--serif);font-size:1.1rem;letter-spacing:.12em;text-decoration:none}
+.nav ul{display:flex;gap:6px;list-style:none;margin:0;padding:0}
+.nav a.l{display:block;padding:8px 14px;border-radius:99px;text-decoration:none;font-weight:500;font-size:.95rem}
+.nav a.l:hover{background:var(--forest2)}
+.hero{background:var(--forest);color:var(--paper);padding:clamp(48px,9vw,110px) 0 clamp(64px,10vw,120px);border-radius:0 0 48px 48px}
+.hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:center}
+.hero h1{font-size:clamp(2.6rem,6.4vw,5rem)}
+.hero p.in{font-size:1.2rem;color:#d5e0d6;max-width:34em;margin:24px 0 32px}
+.role{color:var(--sage);margin:0 0 18px;font-weight:500}
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-block;padding:13px 24px;border-radius:99px;font-weight:700;text-decoration:none;border:2px solid transparent;transition:transform .2s,background .2s}
+.btn:hover{transform:translateY(-2px)}
+.btn.pri{background:var(--lime);color:var(--forest)}
+.btn.sec{border-color:var(--sage);color:var(--paper)}.btn.sec:hover{background:var(--forest2)}
+.btn.dk{background:var(--forest);color:var(--paper)}.btn.dk:hover{background:var(--forest2)}
+.viz{background:var(--forest2);border-radius:var(--r);padding:22px}
+.viz svg{width:100%;height:auto;display:block}
+.viz .bar{transform-origin:bottom;animation:grow 1s cubic-bezier(.2,.8,.2,1) both}
+@keyframes grow{from{transform:scaleY(0)}}
+.viz small{display:block;color:var(--sage);margin-top:10px;font-size:.82rem}
+section{padding:clamp(64px,9vw,110px) 0}
+.sh{max-width:36em;margin-bottom:44px}.sh h2{font-size:clamp(2rem,4vw,3rem)}.sh p{color:var(--muted);margin:14px 0 0}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.card{background:#fff;border-radius:var(--r);padding:28px;display:flex;flex-direction:column;gap:16px;border:1px solid #e3e6dc;transition:box-shadow .25s,transform .25s}
+.card:hover{transform:translateY(-4px);box-shadow:0 14px 30px -18px rgba(24,48,39,.45)}
+.card:nth-child(3n+1){border-top:8px solid var(--forest)}.card:nth-child(3n+2){border-top:8px solid var(--sage)}.card:nth-child(3n){border-top:8px solid var(--lime)}
+.fig{margin:0}.fig img,.fig.soon{width:100%;height:auto;aspect-ratio:16/10;border-radius:14px;border:1px solid #e3e6dc;background:#fff}.fig img{object-fit:cover;object-position:center;display:block}.fig img[src*="retail"]{object-position:left center}.fig figcaption{font-size:.8rem;color:var(--muted);margin-top:6px}
+.fig.soon{display:flex;align-items:center;justify-content:center;text-align:center;padding:16px;color:var(--muted);font-size:.9rem;background:var(--sage2);border-style:dashed}
+.btn.off{background:var(--sage2);color:var(--muted);border:2px dashed var(--sage)}.btn.off:hover{transform:none}
+.tag{align-self:flex-start;background:var(--sage2);padding:3px 12px;border-radius:99px;font-size:.82rem;font-weight:700;color:var(--forest)}
+.card h3{font-size:1.5rem}.card dl{margin:0;display:grid;gap:12px;font-size:.95rem}
+.card dt{font-weight:700;font-size:.82rem;color:var(--muted)}.card dd{margin:0}
+.chips{display:flex;flex-wrap:wrap;gap:6px}.chips span{border:1px solid var(--sage);border-radius:99px;padding:1px 10px;font-size:.85rem}
+.card .btn{margin-top:auto;text-align:center}
+.case{margin-top:24px;background:var(--sage2);border-radius:var(--r)}
+.case summary{cursor:pointer;padding:20px 28px;font-family:var(--serif);font-size:1.25rem;list-style:none;display:flex;justify-content:space-between}
+.case summary::after{content:"+";font-size:1.5rem;transition:transform .2s}.case[open] summary::after{transform:rotate(45deg)}
+.case summary::-webkit-details-marker{display:none}
+.case .body{padding:0 28px 28px;display:grid;grid-template-columns:repeat(2,1fr);gap:20px 32px}
+.case h4{margin:0 0 4px;font-size:1rem}.case p{margin:0;font-size:.97rem}
+.edit{color:var(--muted);font-style:italic}
+.alt{background:var(--sage2)}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:56px}
+.about p{margin:0 0 18px}
+.pill{display:grid;gap:14px;align-content:start}
+.pill div{background:var(--paper);border-radius:18px;padding:18px 22px}.pill b{font-family:var(--serif);font-size:1.1rem;display:block}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:24px}
+.sk{background:var(--sage2);border-radius:var(--r);padding:26px}.sk h3{font-size:1.25rem;margin-bottom:6px}.sk p{margin:0 0 14px;color:var(--muted);font-size:.93rem}
+.sk .chips span{background:var(--paper)}.sk .chips span.learn{background:transparent;border-style:dashed}
+.certbox{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center}.certbox img{width:100%;height:auto;border-radius:var(--r);border:1px solid #cdd6c8;background:#fff}.certbox p{margin:10px 0 18px}
+.contact{background:var(--forest);color:var(--paper);border-radius:48px 48px 0 0}
+.contact .sh p{color:#d5e0d6}
+.clist{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.clist a,.clist span.off{display:block;background:var(--forest2);border-radius:20px;padding:22px;text-decoration:none}
+.clist a:hover{background:#2b5447}.clist b{display:block;color:var(--lime);font-family:var(--serif);font-size:1.1rem}
+.clist span.off{opacity:.7;border:1px dashed var(--sage)}
+footer{background:var(--forest);color:var(--sage);padding:28px 0;text-align:center;font-size:.92rem;border-top:1px solid var(--forest2)}
+@media(max-width:860px){.hero .wrap,.about{grid-template-columns:1fr}.grid,.skills,.certbox{grid-template-columns:1fr}.case .body{grid-template-columns:1fr}.nav a.l{padding:8px 10px}}
+
+.figbtn{all:unset;display:block;cursor:pointer;width:100%;border-radius:14px}.figbtn:focus-visible{outline:3px solid var(--forest);outline-offset:3px}.figbtn:hover img{box-shadow:0 8px 22px -14px rgba(24,48,39,.6)}
+.cbtns{margin-top:auto;display:grid;gap:10px}.cbtns .btn{margin-top:0!important;text-align:center;font:inherit;font-weight:700;cursor:pointer}.btn.out{background:transparent;border-color:var(--forest);color:var(--forest)}.btn.out:hover{background:var(--sage2)}
+dialog.dash{width:min(1120px,94vw);max-height:92vh;padding:0;border:0;border-radius:20px;background:#E9ECE4;color:var(--ink);overflow:auto}
+dialog.dash::backdrop{background:rgba(20,35,29,.65)}
+.dtop{position:sticky;top:0;z-index:2;background:var(--forest);color:var(--paper);display:flex;justify-content:space-between;gap:16px;align-items:center;padding:16px 24px}
+.dtop h3{font-size:1.35rem}.dtop p{margin:2px 0 0;color:var(--sage);font-size:.9rem}
+.dclose{font:inherit;font-weight:700;background:var(--lime);color:var(--forest);border:0;border-radius:99px;padding:8px 18px;cursor:pointer}.dclose:focus-visible{outline:3px solid var(--paper)}
+.dbody{padding:22px 24px 26px;display:grid;gap:18px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px}
+.kpi{background:#fff;border-radius:14px;border-left:6px solid var(--forest);padding:14px 16px;display:grid;gap:2px}.kpi b{font-family:var(--serif);font-size:1.7rem;line-height:1.15}.kpi span{font-size:.82rem;color:var(--muted)}
+.panels{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.vis{margin:0;background:#fff;border-radius:14px;padding:14px 16px}.vis.wide{grid-column:1/-1}.vis h4{margin:0 0 10px;font-size:.95rem}.vis img{width:100%;height:auto;display:block}.vis.wide img{width:auto;max-width:100%;max-height:340px;margin:0 auto}
+.hbars{display:grid;gap:10px}.hb{display:grid;grid-template-columns:130px 1fr 44px;align-items:center;gap:8px;font-size:.85rem}.hb i{display:block;height:14px;background:var(--forest);border-radius:99px}.hb em{font-style:normal;text-align:right;font-weight:700}
+.dnote{margin:0;font-size:.82rem;color:var(--muted)}
+.tw{overflow-x:auto}.dtable{border-collapse:collapse;width:100%;font-size:.88rem}.dtable th,.dtable td{text-align:left;padding:7px 10px;border-bottom:1px solid #e3e6dc}.dtable th{font-size:.78rem;color:var(--muted)}
+@media(max-width:700px){.panels{grid-template-columns:1fr}.dtop{padding:14px 16px}.dbody{padding:16px}.hb{grid-template-columns:100px 1fr 40px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<a class="skip" href="#projects">Skip to content</a>
+<header class="nav"><div class="wrap">
+<a class="mark" href="#top">PORTFOLIO DINDA</a>
+<nav aria-label="Main"><ul>
+<li><a class="l" href="#projects">Projects</a></li><li><a class="l" href="#about">About</a></li><li><a class="l" href="#certification">Certification</a></li><li><a class="l" href="#contact">Contact</a></li>
+</ul></nav></div></header>
+
+<main id="top">
+<div class="hero"><div class="wrap">
+<div>
+<p class="role">Dinda Mutiara Sukmaningrum, aspiring data scientist</p>
+<h1>Turning Data Into Meaningful Insights.</h1>
+<p class="in">I explore data, uncover patterns, and translate analytical findings into clear, practical insights that support better decisions.</p>
+<div class="btns"><a class="btn pri" href="#projects">Explore projects</a></div>
+</div>
+<div class="viz" role="img" aria-label="Decorative bar chart illustration. Not real data.">
+<svg viewBox="0 0 320 200" aria-hidden="true">
+<g stroke="#3b5c50"><path d="M20 40h290M20 90h290M20 140h290"/></g>
+<g fill="#BFCFBE"><rect class="bar" x="34" y="110" width="34" height="50" rx="8"/><rect class="bar" x="88" y="80" width="34" height="80" rx="8" style="animation-delay:.1s"/><rect class="bar" x="142" y="96" width="34" height="64" rx="8" style="animation-delay:.2s"/></g>
+<rect class="bar" x="196" y="42" width="34" height="118" rx="8" fill="#D7F26B" style="animation-delay:.3s"/>
+<rect class="bar" x="250" y="70" width="34" height="90" rx="8" fill="#BFCFBE" style="animation-delay:.4s"/>
+<path d="M20 160h290" stroke="#BFCFBE" stroke-width="2"/></svg>
+<small>Decorative illustration only. It does not show real findings.</small></div>
+</div></div>
+
+<section id="projects"><div class="wrap">
+<div class="sh"><h2>Featured projects</h2><p>Five data science projects across retail, healthcare, mental health, manufacturing and sales. Completed notebooks open in Google Colab, and results for the last two are still being added.</p></div>
+<div class="grid">
+<article class="card"><span class="tag">Project 01 · Retail</span>
+<figure class="fig"><button type="button" class="figbtn" data-dash="rfm" aria-label="Open dashboard view for this project"><img src="viz-rfm-clusters.webp" width="870" height="679" loading="lazy" alt="Boxplot of Monetary value for each customer cluster, from the RFM notebook"></button><figcaption>Click to open the dashboard view.</figcaption></figure>
+<h3>Customer Segmentation Using RFM Analysis and K-Means</h3>
+<dl><div><dt>Business question</dt><dd>How can customers be grouped by Recency, Frequency and Monetary value so a company can target them more efficiently?</dd></div>
+<div><dt>Dataset</dt><dd>Online retail transaction data (online_retail.csv).</dd></div>
+<div><dt>Methods</dt><dd>RFM feature building, outlier removal, standardization, K-Means, elbow curve and silhouette analysis.</dd></div>
+<div><dt>Key findings</dt><dd>Silhouette analysis favoured two clusters: a higher-spending, more frequent group and a group at risk of lapsing.</dd></div>
+<div><dt>Tools</dt><dd class="chips"><span>Python</span><span>Pandas</span><span>Seaborn</span><span>scikit-learn</span></dd></div></dl>
+<div class="cbtns"><button type="button" class="btn out" data-dash="rfm">View dashboard</button><a class="btn dk" href="https://colab.research.google.com/drive/1t0PXAFDkekZQwtggy1joA455EWiAHSEp?usp=sharing" target="_blank" rel="noopener">Open Google Colab</a></div></article>
+<article class="card"><span class="tag">Project 02 · Mental health</span>
+<figure class="fig"><button type="button" class="figbtn" data-dash="mental" aria-label="Open dashboard view for this project"><img src="viz-mental-correlation.webp" width="900" height="591" loading="lazy" alt="Spearman correlation heatmap of symptom features and the expert diagnosis"></button><figcaption>Click to open the dashboard view.</figcaption></figure>
+<h3>Classifying Expert Diagnoses from Reported Mental Health Symptoms</h3>
+<dl><div><dt>Business question</dt><dd>Which reported symptoms and behaviours relate to an expert diagnosis, and can a model classify it?</dd></div>
+<div><dt>Dataset</dt><dd>Mental disorders dataset, 120 rows and 19 columns.</dd></div>
+<div><dt>Methods</dt><dd>Value cleaning, ordinal encoding, Spearman correlation, classification models and a voting ensemble.</dd></div>
+<div><dt>Key findings</dt><dd>Six features correlated positively with the diagnosis. Best accuracy was about 0.54, so predictive power was modest.</dd></div>
+<div><dt>Tools</dt><dd class="chips"><span>Python</span><span>Pandas</span><span>Seaborn</span><span>scikit-learn</span></dd></div></dl>
+<div class="cbtns"><button type="button" class="btn out" data-dash="mental">View dashboard</button><a class="btn dk" href="https://colab.research.google.com/drive/185HuC7YqLnK6HCE2JYtT8BomaJ0kTBFO?usp=sharing" target="_blank" rel="noopener">Open Google Colab</a></div></article>
+<article class="card"><span class="tag">Project 03 · Healthcare insurance</span>
+<figure class="fig"><button type="button" class="figbtn" data-dash="insurance" aria-label="Open dashboard view for this project"><img src="viz-insurance-age-charges.webp" width="900" height="449" loading="lazy" alt="Scatter plot of age versus insurance charges"></button><figcaption>Click to open the dashboard view.</figcaption></figure>
+<h3>Predicting Health Insurance Charges from Customer Profiles</h3>
+<dl><div><dt>Business question</dt><dd>Which customer attributes drive insurance charges, and how well can charges be predicted?</dd></div>
+<div><dt>Dataset</dt><dd>Health insurance dataset, 1,338 rows and 7 columns.</dd></div>
+<div><dt>Methods</dt><dd>EDA, duplicate and outlier handling, encoding, correlation, LazyPredict screening, regression models and a voting ensemble.</dd></div>
+<div><dt>Key findings</dt><dd>Age and smoker status correlated most strongly with charges. Linear Regression reached a mean cross-validation score of about 0.60.</dd></div>
+<div><dt>Tools</dt><dd class="chips"><span>Python</span><span>Pandas</span><span>Seaborn</span><span>scikit-learn</span></dd></div></dl>
+<div class="cbtns"><button type="button" class="btn out" data-dash="insurance">View dashboard</button><a class="btn dk" href="https://colab.research.google.com/drive/1DKJPjGxwNxsStTSucCQzVb-eid664Yqw?usp=sharing" target="_blank" rel="noopener">Open Google Colab</a></div></article>
+<article class="card"><span class="tag">Project 04 · Manufacturing</span>
+<figure class="fig"><button type="button" class="figbtn" data-dash="maint" aria-label="Open dashboard view for this project"><img src="dash-maint-importance.webp" width="738" height="378" loading="lazy" alt="Permutation importance chart of the predictive maintenance model"></button><figcaption>Click to open the dashboard view.</figcaption></figure>
+<h3>Predictive Maintenance: Predicting Machine Failures from Sensor Data</h3>
+<dl><div><dt>Business question</dt><dd>Can process and sensor readings identify machine failures before they happen?</dd></div>
+<div><dt>Dataset</dt><dd>AI4I 2020 Predictive Maintenance dataset (UCI), synthetic, 10,000 records with no missing values.</dd></div>
+<div><dt>Methods</dt><dd>Feature engineering, class-imbalance handling, model comparison on PR-AUC, threshold analysis and permutation importance.</dd></div>
+<div><dt>Key findings</dt><dd>Gradient Boosting reached a test PR-AUC of about 0.90 (precision 1.00, recall 0.79) on a 3.39% failure rate. Tool wear failures were rarely caught (recall 0.10).</dd></div>
+<div><dt>Tools</dt><dd class="chips"><span>Python</span><span>Pandas</span><span>Seaborn</span><span>scikit-learn</span></dd></div></dl>
+<div class="cbtns"><button type="button" class="btn out" data-dash="maint">View dashboard</button><a class="btn dk" href="https://colab.research.google.com/drive/18RTXiwPO8GVzydoqhh7438S7ETum_YmF?usp=sharing" target="_blank" rel="noopener">Open Google Colab</a></div></article>
+<article class="card"><span class="tag">Project 05 · Sales</span>
+<figure class="fig"><button type="button" class="figbtn" data-dash="retail" aria-label="Open dashboard view for this project"><img src="dash-retail-discount.webp" width="900" height="304" loading="lazy" alt="Profit margin and loss rate by discount band"></button><figcaption>Click to open the dashboard view.</figcaption></figure>
+<h3>Retail Sales Analysis: Profitability Drivers and Loss-Making Orders</h3>
+<dl><div><dt>Business question</dt><dd>Where does a retailer make and lose money, and can loss-making order lines be predicted?</dd></div>
+<div><dt>Dataset</dt><dd>Sample Superstore dataset, 9,994 rows and 21 columns (fictional US retail orders).</dd></div>
+<div><dt>Methods</dt><dd>Profitability and discount analysis, Holt-Winters sales forecast and loss-making order classification.</dd></div>
+<div><dt>Key findings</dt><dd>Margin was 12.5% overall but turned negative above a 20% discount. Furniture, the Central region, and Supplies, Bookcases and Tables lagged. Gradient Boosting flagged loss-making lines with PR-AUC about 0.95.</dd></div>
+<div><dt>Tools</dt><dd class="chips"><span>Python</span><span>Pandas</span><span>Seaborn</span><span>scikit-learn</span><span>statsmodels</span></dd></div></dl>
+<div class="cbtns"><button type="button" class="btn out" data-dash="retail">View dashboard</button><a class="btn dk" href="https://colab.research.google.com/drive/1OMDY-e1iNs5sNivGiDWG4RpEytEeBFnD?usp=sharing" target="_blank" rel="noopener">Open Google Colab</a></div></article>
+</div>
+
+<details class="case"><summary>Case study: Customer Segmentation Using RFM Analysis and K-Means</summary><div class="body"><div><h4>Business problem</h4><p>Segment customers by Recency, Frequency and Monetary value to target them more efficiently.</p></div><div><h4>Dataset</h4><p>Online retail transactions with invoice, customer, quantity, price and date fields.</p></div><div><h4>Data preparation</h4><p>Removed duplicates and rows with missing values, built R, F and M features per customer, removed outliers, and standardized the features.</p></div><div><h4>Exploratory analysis</h4><p>Boxplots to inspect outliers in Recency, Frequency and Monetary.</p></div><div><h4>Key findings</h4><p>Cluster 1 customers spent more and purchased more often than Cluster 0.</p></div><div><h4>Recommendations</h4><p>Run retention efforts for Cluster 0, personalize offers for Cluster 1, and use the segments for sharper targeting.</p></div><div><h4>Limitations</h4><p>Segmentation uses only three behavioural features, and silhouette analysis favoured just two clusters, which gives a coarse view of customers. Monetary values include negatives (likely returns or cancellations), and removing outliers may also remove some of the highest-value customers. The segments were not validated against later purchase behaviour.</p></div></div></details>
+<details class="case"><summary>Case study: Classifying Expert Diagnoses from Reported Mental Health Symptoms</summary><div class="body"><div><h4>Business problem</h4><p>Understand which symptoms relate to an expert diagnosis and test whether a model can classify it.</p></div><div><h4>Dataset</h4><p>120 rows, 19 columns. All columns were text; no missing values or duplicates were found.</p></div><div><h4>Data preparation</h4><p>Dropped Patient Number, fixed the "Optimisim" column name and a stray "YES " value, grouped 1-9 ratings into Weak, Medium and Strong, then encoded to ordinal numbers.</p></div><div><h4>Exploratory analysis</h4><p>Distribution plots for symptom columns such as sleep disorder, exhaustion, euphoria and sadness.</p></div><div><h4>Key findings</h4><p>Sadness, exhaustion, sleep disorder, suicidal thoughts, nervous breakdown and overthinking correlated positively with the diagnosis.</p></div><div><h4>Recommendations</h4><p>With only 120 records and modest accuracy, the notebook is best treated as an exploratory study. Recommended next steps: collect a larger and more balanced sample, validate the model on separate data, and use the strongest correlated symptoms (such as sadness, exhaustion and suicidal thoughts) only as supporting signals for professional screening, never as a replacement for diagnosis.</p></div><div><h4>Limitations</h4><p>Accuracy stayed around 0.51 to 0.54 across models, and the dataset is small (120 rows). Results are not suitable for clinical use.</p></div></div></details>
+<details class="case"><summary>Case study: Predicting Health Insurance Charges from Customer Profiles</summary><div class="body"><div><h4>Business problem</h4><p>Identify what drives insurance charges and predict them from customer attributes.</p></div><div><h4>Dataset</h4><p>1,338 rows, 7 columns, with one duplicate row removed and no missing values.</p></div><div><h4>Data preparation</h4><p>Outlier handling with the IQR method, one-hot encoding for sex and region, label encoding for smoker, and standardization.</p></div><div><h4>Exploratory analysis</h4><p>Charges rose with age, smokers were an imbalanced group, and charges contained many outliers.</p></div><div><h4>Key findings</h4><p>Age and smoker status had the highest correlation with charges. Linear Regression led on mean cross-validation score (about 0.60).</p></div><div><h4>Recommendations</h4><p>Consider pricing and customer segmentation by age and smoker status.</p></div><div><h4>Limitations</h4><p>The best model reached a mean cross-validation score of about 0.60, so a large share of the variation in charges is left unexplained. Outlier handling with the IQR method removes some very high charges, and the dataset has only 1,338 rows and no medical history. Findings describe association, not cause.</p></div></div></details>
+<details class="case"><summary>Case study: Predictive Maintenance: Predicting Machine Failures from Sensor Data</summary><div class="body"><div><h4>Business problem</h4><p>Unplanned machine failures stop production, so the goal is to flag at-risk machines early enough to plan maintenance.</p></div><div><h4>Dataset</h4><p>AI4I 2020 Predictive Maintenance dataset (UCI), synthetic, 10,000 records with no missing values or duplicates. Failures make up 3.39% of records.</p></div><div><h4>Data preparation</h4><p>Failure-mode columns excluded from features to avoid leakage; engineered temperature difference, power and tool-wear-torque features; stratified 80/20 split with preprocessing inside a pipeline.</p></div><div><h4>Exploratory analysis</h4><p>Failure rate, failure rate by product type, records per failure mode (heat dissipation was the most frequent), feature distributions, and correlations.</p></div><div><h4>Key findings</h4><p>Gradient Boosting led with a cross-validated PR-AUC of 0.91 and a test PR-AUC of 0.90. At threshold 0.5 it raised 54 alerts with precision 1.00 and recall 0.79. Recall was 1.00 for power and overstrain failures and 0.90 for heat dissipation, but only 0.10 for tool wear failures. Temperature difference, rotational speed and power were among the most influential features.</p></div><div><h4>Recommendations</h4><p>A threshold near 0.3 balanced coverage and false alarms on the test set (precision 0.95, recall 0.85). Monitor temperature difference, rotational speed and power as early indicators, and handle tool wear separately because the model rarely catches it.</p></div><div><h4>Limitations</h4><p>The data is synthetic, so real factory data will be noisier. Thresholds were compared on the test set and should be validated on separate data. Per-mode recall rests on few cases (for example 10 tool wear and 4 random failures). Costs of missed failures and false alarms are not modelled.</p></div></div></details>
+<details class="case"><summary>Case study: Retail Sales Analysis: Profitability Drivers and Loss-Making Orders</summary><div class="body"><div><h4>Business problem</h4><p>Strong sales do not guarantee profit, so the goal is to find where profit is made and lost and how discounts relate to it.</p></div><div><h4>Dataset</h4><p>Sample Superstore dataset, 9,994 rows and 21 columns of fictional US retail orders from 2014 to 2017, with no missing values or duplicates.</p></div><div><h4>Data preparation</h4><p>Parsed order and ship dates and created shipping time, month, profit margin and a loss-making flag. The train/test split was grouped by Order ID to avoid leakage.</p></div><div><h4>Exploratory analysis</h4><p>Profit and margin by category, sub-category, region and segment; margin and loss rate by discount band; monthly sales trend.</p></div><div><h4>Key findings</h4><p>Sales were about 2.30 million with a 12.5% profit margin, and 18.7% of order lines lost money. Furniture earned a 2.5% margin against about 17% for Technology and Office Supplies, and Supplies, Bookcases and Tables lost money overall. The Central region had the lowest margin (7.9%). Margin turned negative above a 20% discount: about 92% of lines at 20-50% discount and every line above 50% lost money. Holt-Winters beat the seasonal naive baseline on the last 6 months (MAPE 17.1% vs 25.4%), and Gradient Boosting flagged loss-making lines with a PR-AUC of about 0.95, driven mainly by discount.</p></div><div><h4>Recommendations</h4><p>Review discount rules above 20%, review pricing and discounting for Furniture and the loss-making sub-categories, investigate the Central region, and use the model to flag high-discount order lines before approval.</p></div><div><h4>Limitations</h4><p>The data is fictional and covers a limited window, so findings are illustrative. The forecast was checked on only 6 months. Correlation between discount and loss does not prove causation.</p></div></div></details>
+</div></section>
+
+<section id="about" class="alt"><div class="wrap about">
+<div class="sh" style="margin:0"><h2>From computer engineering to data science</h2></div>
+<div>
+<p>I am a D-IV Computer Engineering Technology (Teknik Informatika) student at Politeknik Negeri Semarang. That background taught me to break problems into steps, work comfortably with code, and care about how systems behave.</p>
+<p>Data science lets me apply that foundation to questions people actually need answered. I like finding the pattern in a messy table, testing whether it holds, and explaining it plainly.</p>
+<p>I am looking for an entry-level data science role. My final project applied data processing to build a TinyML model for an early warning system, and my other experience comes from the academic and self-driven projects above.</p>
+<div class="pill"><div><b>Structured problem-solving</b>Defining the question before touching the data.</div><div><b>Technical foundations</b>Programming and computing fundamentals.</div><div><b>Curiosity and business thinking</b>Linking findings to decisions.</div></div>
+</div></div></section>
+
+<section id="skills"><div class="wrap">
+<div class="sh"><h2>Skills</h2><p>Solid lines mean skills used in my projects. Dashed outlines mean skills I am still learning.</p></div>
+<div class="skills">
+<div class="sk"><h3>Data analysis</h3><p>Used in my notebooks.</p><div class="chips"><span>Python</span><span>Pandas</span><span>SQL</span><span>Data cleaning</span><span>Exploratory data analysis</span></div></div>
+<div class="sk"><h3>Machine learning</h3><p>Foundations applied in projects and my final project.</p><div class="chips"><span>scikit-learn</span><span>Classification</span><span>Regression</span><span>K-Means clustering</span><span>TinyML</span></div></div>
+<div class="sk"><h3>Visualization</h3><p>Charts in Python, dashboards in Looker Studio and Power BI.</p><div class="chips"><span>Data visualization</span><span>Matplotlib</span><span>Seaborn</span><span>Looker Studio</span><span>Power BI</span></div></div>
+<div class="sk"><h3>Still learning</h3><p>Not yet shown in my projects.</p><div class="chips"><span class="learn">Excel</span></div></div>
+</div></div></section>
+
+<section id="certification" class="alt"><div class="wrap">
+<div class="sh"><h2>Certifications</h2></div>
+<div class="certbox">
+<a href="certificate.webp" target="_blank" rel="noopener"><img src="certificate.webp" width="1010" height="711" loading="lazy" alt="Certificate: Dinda Mutiara Sukmaningrum, SOLUSI247 Certified Big Data Analyst Associate"></a>
+<div><h3>Big Data Analyst Associate</h3>
+<p>SOLUSI247 Certified, completed through DataLearns247.</p>
+<p>Also completed: Fundamentals of Marketing Analytics (Semrush Academy) and Database Programming with SQL (Oracle Academy).</p>
+<p class="edit" style="font-style:normal">Certificate ID: SCA511-2306-2508014836<br>Valid until: August 18, 2029</p>
+<a class="btn dk" href="certificate.webp" target="_blank" rel="noopener">View full certificate</a></div></div>
+
+<div class="certbox" style="margin-top:56px">
+<a href="kaggle-certificate.webp" target="_blank" rel="noopener"><img src="kaggle-certificate.webp" width="1100" height="678" loading="lazy" alt="Kaggle certificate of completion: Dinda Mutiara Sukmaningrum, Intermediate Machine Learning"></a>
+<div><h3>Intermediate Machine Learning</h3>
+<p>Kaggle Learn, certificate of completion.</p>
+<p class="edit" style="font-style:normal">Completed: October 29, 2026</p>
+<a class="btn dk" href="kaggle-certificate.webp" target="_blank" rel="noopener">View full certificate</a></div></div>
+</div></section>
+
+<section id="contact" class="contact"><div class="wrap">
+<div class="sh"><h2>Let's talk</h2><p>I am open to entry-level data science opportunities. Email is the best way to reach me.</p></div>
+<div class="clist" id="clist"></div>
+</div></section>
+<dialog class="dash" id="dash-rfm" aria-labelledby="dt-rfm"><div class="dtop"><div><h3 id="dt-rfm">Customer Segmentation: RFM and K-Means</h3><p>Retail customers grouped by Recency, Frequency and Monetary value</p></div><button type="button" class="dclose" aria-label="Close dashboard">Close</button></div>
+<div class="dbody"><div class="kpis"><div class="kpi"><b>2</b><span>Segments chosen</span></div><div class="kpi"><b>3</b><span>Features: R, F, M</span></div><div class="kpi"><b>K-Means</b><span>Algorithm</span></div><div class="kpi"><b>Elbow + silhouette</b><span>Cluster selection</span></div></div><div class="panels"><figure class="vis"><h4>Elbow curve (SSD by number of clusters)</h4><img src="dash-rfm-elbow.webp" width="820" height="644" loading="lazy" alt="Elbow curve for choosing the number of clusters"></figure><figure class="vis"><h4>Monetary by cluster</h4><img src="dash-rfm-monetary.webp" width="820" height="639" loading="lazy" alt="Boxplot of Monetary value by cluster"></figure><figure class="vis"><h4>Frequency by cluster</h4><img src="dash-rfm-frequency.webp" width="820" height="655" loading="lazy" alt="Boxplot of purchase Frequency by cluster"></figure><figure class="vis"><h4>Recency by cluster</h4><img src="dash-rfm-recency.webp" width="820" height="655" loading="lazy" alt="Boxplot of Recency by cluster"></figure></div>
+<p class="dnote">Dashboard view assembled from the notebook's own outputs and results. It is a static layout, not an interactive Power BI or Looker Studio report.</p></div></dialog>
+<dialog class="dash" id="dash-mental" aria-labelledby="dt-mental"><div class="dtop"><div><h3 id="dt-mental">Mental Health Symptom Classification</h3><p>Expert diagnosis versus reported symptoms and behaviours</p></div><button type="button" class="dclose" aria-label="Close dashboard">Close</button></div>
+<div class="dbody"><div class="kpis"><div class="kpi"><b>120</b><span>Records</span></div><div class="kpi"><b>19</b><span>Columns</span></div><div class="kpi"><b>6</b><span>Features positively correlated</span></div><div class="kpi"><b>≈ 0.54</b><span>Best accuracy</span></div></div><div class="panels"><figure class="vis wide"><h4>Spearman correlation heatmap</h4><img src="dash-mental-heatmap.webp" width="820" height="539" loading="lazy" alt="Spearman correlation heatmap of symptoms and expert diagnosis"></figure><figure class="vis"><h4>Distribution: Sadness</h4><img src="dash-mental-sadness.webp" width="623" height="413" loading="lazy" alt="Distribution of the Sadness rating"></figure><figure class="vis"><h4>Distribution: Sleep disorder</h4><img src="dash-mental-sleep.webp" width="623" height="413" loading="lazy" alt="Distribution of the Sleep disorder rating"></figure><figure class="vis"><h4>Distribution: Optimism</h4><img src="dash-mental-optimism.webp" width="820" height="510" loading="lazy" alt="Distribution of the Optimism rating"></figure></div>
+<p class="dnote">Dashboard view assembled from the notebook's own outputs and results. It is a static layout, not an interactive Power BI or Looker Studio report.</p></div></dialog>
+<dialog class="dash" id="dash-insurance" aria-labelledby="dt-insurance"><div class="dtop"><div><h3 id="dt-insurance">Health Insurance Charges</h3><p>Customer attributes versus insurance charges</p></div><button type="button" class="dclose" aria-label="Close dashboard">Close</button></div>
+<div class="dbody"><div class="kpis"><div class="kpi"><b>1,338</b><span>Records</span></div><div class="kpi"><b>7</b><span>Columns</span></div><div class="kpi"><b>0.60</b><span>Top correlate: smoker (r)</span></div><div class="kpi"><b>≈ 0.60</b><span>Linear Regression, mean CV score</span></div></div><div class="panels"><figure class="vis wide"><h4>Age vs charges</h4><img src="dash-ins-age.webp" width="820" height="409" loading="lazy" alt="Scatter plot of age versus charges"></figure><figure class="vis"><h4>Correlation with charges (Pearson)</h4><div class="hbars"><div class="hb"><span>smoker</span><i style="width:99.3%"></i><em>0.60</em></div><div class="hb"><span>age</span><i style="width:74.7%"></i><em>0.45</em></div><div class="hb"><span>children</span><i style="width:14.7%"></i><em>0.09</em></div><div class="hb"><span>region_southwest</span><i style="width:12.8%"></i><em>0.08</em></div><div class="hb"><span>bmi</span><i style="width:10.7%"></i><em>0.06</em></div><div class="hb"><span>region_northwest</span><i style="width:6.5%"></i><em>0.04</em></div><div class="hb"><span>region_southeast</span><i style="width:5.0%"></i><em>0.03</em></div><div class="hb"><span>sex_male</span><i style="width:3.7%"></i><em>0.02</em></div></div></figure><figure class="vis"><h4>Smoker vs charges</h4><img src="dash-ins-smoker.webp" width="820" height="416" loading="lazy" alt="Scatter plot of smoker status versus charges"></figure><figure class="vis"><h4>Distribution of charges (boxplot)</h4><img src="dash-ins-charges.webp" width="713" height="547" loading="lazy" alt="Boxplot of insurance charges"></figure></div>
+<p class="dnote">Dashboard view assembled from the notebook's own outputs and results. It is a static layout, not an interactive Power BI or Looker Studio report.</p></div></dialog>
+<dialog class="dash" id="dash-maint" aria-labelledby="dt-maint"><div class="dtop"><div><h3 id="dt-maint">Predictive Maintenance</h3><p>Predicting machine failures from sensor data (AI4I 2020, synthetic)</p></div><button type="button" class="dclose" aria-label="Close dashboard">Close</button></div>
+<div class="dbody"><div class="kpis"><div class="kpi"><b>10,000</b><span>Records</span></div><div class="kpi"><b>3.39%</b><span>Failure rate</span></div><div class="kpi"><b>0.90</b><span>Test PR-AUC, Gradient Boosting</span></div><div class="kpi"><b>0.79</b><span>Recall at threshold 0.5 (precision 1.00)</span></div></div><div class="panels"><figure class="vis wide"><h4>Failure distribution</h4><img src="dash-maint-eda.webp" width="900" height="218" loading="lazy" alt="Failure distribution, failure rate by product type and records per failure mode"></figure><figure class="vis"><h4>Cross-validated PR-AUC by model</h4><div class="hbars"><div class="hb"><span>Gradient Boosting</span><i style="width:90.6%"></i><em>0.91</em></div><div class="hb"><span>Random Forest</span><i style="width:89.3%"></i><em>0.89</em></div><div class="hb"><span>Logistic Regression</span><i style="width:45.9%"></i><em>0.46</em></div></div></figure><figure class="vis"><h4>Recall by failure mode (test set)</h4><div class="hbars"><div class="hb"><span>Tool wear (10)</span><i style="width:10.0%"></i><em>0.10</em></div><div class="hb"><span>Heat dissipation (29)</span><i style="width:89.7%"></i><em>0.90</em></div><div class="hb"><span>Power (13)</span><i style="width:100.0%"></i><em>1.00</em></div><div class="hb"><span>Overstrain (16)</span><i style="width:100.0%"></i><em>1.00</em></div><div class="hb"><span>Random (4)</span><i style="width:0.0%"></i><em>0.00</em></div></div></figure><figure class="vis"><h4>Threshold trade-off (test set)</h4><div class="tw"><table class="dtable"><tr><th scope="col">Threshold</th><th scope="col">Precision</th><th scope="col">Recall</th><th scope="col">Alerts</th></tr><tr><td>0.1</td><td>0.73</td><td>0.85</td><td>79</td></tr><tr><td>0.3</td><td>0.95</td><td>0.85</td><td>61</td></tr><tr><td>0.5</td><td>1.00</td><td>0.79</td><td>54</td></tr><tr><td>0.9</td><td>1.00</td><td>0.72</td><td>49</td></tr></table></div></figure><figure class="vis"><h4>Permutation importance</h4><img src="dash-maint-importance.webp" width="738" height="378" loading="lazy" alt="Permutation importance of features for the best model"></figure><figure class="vis wide"><h4>Gradient Boosting: confusion matrix and precision-recall curve</h4><img src="dash-maint-eval.webp" width="900" height="392" loading="lazy" alt="Confusion matrix and precision-recall curve"></figure></div>
+<p class="dnote">Dashboard view assembled from the notebook's own outputs and results. It is a static layout, not an interactive Power BI or Looker Studio report.</p></div></dialog>
+<dialog class="dash" id="dash-retail" aria-labelledby="dt-retail"><div class="dtop"><div><h3 id="dt-retail">Retail Sales Profitability</h3><p>Where profit is made and lost, and which order lines lose money (Sample Superstore)</p></div><button type="button" class="dclose" aria-label="Close dashboard">Close</button></div>
+<div class="dbody"><div class="kpis"><div class="kpi"><b>2.30M</b><span>Total sales</span></div><div class="kpi"><b>286K</b><span>Total profit</span></div><div class="kpi"><b>12.5%</b><span>Profit margin</span></div><div class="kpi"><b>18.7%</b><span>Order lines that lose money</span></div></div><div class="panels"><figure class="vis wide"><h4>Monthly sales</h4><img src="dash-retail-monthly.webp" width="900" height="389" loading="lazy" alt="Line chart of monthly sales from 2014 to 2017"></figure><figure class="vis wide"><h4>Profit and margin by sub-category</h4><img src="dash-retail-subcat.webp" width="900" height="354" loading="lazy" alt="Profit and profit margin by sub-category"></figure><figure class="vis"><h4>Profit margin by category (%)</h4><div class="hbars"><div class="hb"><span>Technology</span><i style="width:87.0%"></i><em>17.4</em></div><div class="hb"><span>Office Supplies</span><i style="width:85.0%"></i><em>17.0</em></div><div class="hb"><span>Furniture</span><i style="width:12.5%"></i><em>2.5</em></div></div></figure><figure class="vis"><h4>Profit margin by region (%)</h4><div class="hbars"><div class="hb"><span>West</span><i style="width:74.5%"></i><em>14.9</em></div><div class="hb"><span>East</span><i style="width:67.5%"></i><em>13.5</em></div><div class="hb"><span>South</span><i style="width:59.5%"></i><em>11.9</em></div><div class="hb"><span>Central</span><i style="width:39.5%"></i><em>7.9</em></div></div></figure><figure class="vis wide"><h4>Margin and loss rate by discount band</h4><img src="dash-retail-discount.webp" width="900" height="304" loading="lazy" alt="Profit margin and share of loss-making lines by discount band"></figure><figure class="vis"><h4>Forecast check on the last 6 months</h4><div class="tw"><table class="dtable"><tr><th scope="col">Model</th><th scope="col">MAE</th><th scope="col">MAPE (%)</th></tr><tr><td>Seasonal naive</td><td>20,460</td><td>25.4</td></tr><tr><td>Holt-Winters</td><td>14,321</td><td>17.1</td></tr></table></div></figure><figure class="vis"><h4>Loss-making line classifier</h4><div class="tw"><table class="dtable"><tr><th scope="col">Model</th><th scope="col">PR-AUC</th><th scope="col">Recall</th></tr><tr><td>Gradient Boosting</td><td>0.952</td><td>0.78</td></tr><tr><td>Random Forest</td><td>0.947</td><td>0.89</td></tr><tr><td>Logistic Regression</td><td>0.944</td><td>0.95</td></tr></table></div></figure><figure class="vis wide"><h4>Forecast versus actual</h4><img src="dash-retail-forecast.webp" width="900" height="356" loading="lazy" alt="Forecast check chart comparing actual sales with two forecasts"></figure><figure class="vis wide"><h4>Best model: confusion matrix and feature importance</h4><img src="dash-retail-model.webp" width="900" height="323" loading="lazy" alt="Confusion matrix and permutation importance"></figure></div>
+<p class="dnote">Dashboard view assembled from the notebook's own outputs and results. It is a static layout, not an interactive Power BI or Looker Studio report.</p></div></dialog>
+</main>
+<footer><div class="wrap">&copy; <span id="yr">2026</span> Dinda Mutiara Sukmaningrum</div></footer>
+
+<script>
+const EMAIL="dindmutia@gmail.com";
+document.getElementById("yr").textContent=new Date().getFullYear();
+const box=document.getElementById("clist");
+const a=document.createElement("a");a.href="mailto:"+EMAIL;a.innerHTML="<b>Email</b>"+EMAIL;box.appendChild(a);
+const l=document.createElement("a");l.href="https://www.linkedin.com/in/dinda-mutiara-sukmaningrum-199444267/";l.target="_blank";l.rel="noopener";l.innerHTML="<b>LinkedIn</b>dinda-mutiara-sukmaningrum";box.appendChild(l);
+document.querySelectorAll("[data-dash]").forEach(b=>b.addEventListener("click",()=>{const d=document.getElementById("dash-"+b.dataset.dash);if(d&&d.showModal)d.showModal()}));
+document.querySelectorAll("dialog.dash").forEach(d=>{d.querySelector(".dclose").addEventListener("click",()=>d.close());d.addEventListener("click",e=>{if(e.target===d)d.close()})});
+</script>
+</body>
+</html>
